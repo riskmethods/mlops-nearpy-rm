@@ -17,10 +17,10 @@ setup(
     keywords='nearpy approximate nearest neighbour',
     long_description=open('README.txt').read(),
     install_requires=[
-        "numpy",
-        "scipy",
-        "bitarray",
-        "future",
+        "numpy>=1.16.1",
+        "scipy>=1.5.4",
+        "bitarray>=2.3.6",
+        "future>=0.18.2",
     ],
     setup_requires=setup_requires,
     tests_require=[
