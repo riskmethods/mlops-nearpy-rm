@@ -7,7 +7,7 @@ setup_requires = ['pytest-runner>=2.0,<3.0'] if needs_pytest else []
 
 setup(
     name='NearPy',
-    version='1.0.0',
+    version='1.0.3',
     author='Ole Krause-Sparmann',
     author_email='ole@pixelogik.de',
     packages=find_packages(exclude=["tests.*"]),
@@ -17,16 +17,8 @@ setup(
     keywords='nearpy approximate nearest neighbour',
     long_description=open('README.txt').read(),
     install_requires=[
-        "numpy",
-        "scipy",
-        "bitarray",
-        "future",
     ],
     setup_requires=setup_requires,
     tests_require=[
-        "pytest<3.3",
-        "redis",
-        "mockredispy",
-        "mongomock",
     ]
 )
