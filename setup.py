@@ -7,7 +7,7 @@ setup_requires = ['pytest-runner>=2.0,<3.0'] if needs_pytest else []
 
 setup(
     name='NearPy',
-    version='1.0.0',
+    version='1.0.2',
     author='Ole Krause-Sparmann',
     author_email='ole@pixelogik.de',
     packages=find_packages(exclude=["tests.*"]),
@@ -17,10 +17,6 @@ setup(
     keywords='nearpy approximate nearest neighbour',
     long_description=open('README.txt').read(),
     install_requires=[
-        "numpy>=1.16.1",
-        "scipy>=1.5.4",
-        "bitarray>=2.3.6",
-        "future>=0.18.2",
     ],
     setup_requires=setup_requires,
     tests_require=[
