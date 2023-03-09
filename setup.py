@@ -7,8 +7,8 @@ setup_requires = ['pytest-runner>=2.0,<3.0'] if needs_pytest else []
 
 setup(
     name='NearPy',
-    version='1.0.2',
-    author='Ole Krause-Sparmann',
+    version='1.0.3',
+    author='Ole Krause-Sparmann, Roman Sergienko',
     author_email='ole@pixelogik.de',
     packages=find_packages(exclude=["tests.*"]),
     url='https://github.com/riskmethods/mlops-nearpy-rm',
