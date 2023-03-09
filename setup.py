@@ -7,11 +7,11 @@ setup_requires = ['pytest-runner>=2.0,<3.0'] if needs_pytest else []
 
 setup(
     name='NearPy',
-    version='1.0.0',
+    version='1.0.2',
     author='Ole Krause-Sparmann',
     author_email='ole@pixelogik.de',
     packages=find_packages(exclude=["tests.*"]),
-    url='https://github.com/pixelogik/NearPy',
+    url='https://github.com/riskmethods/mlops-nearpy-rm',
     license='LICENSE.txt',
     description='Framework for fast approximated nearest neighbour search.',
     keywords='nearpy approximate nearest neighbour',
