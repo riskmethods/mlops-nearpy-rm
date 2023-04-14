@@ -24,7 +24,7 @@ setup(
     ],
     setup_requires=setup_requires,
     tests_require=[
-        "pytest==7.3.0",
+        "pytest==7.3.1",
         "redis==4.5.4",
         "mockredispy==2.9.3",
         "mongomock==4.1.2",
