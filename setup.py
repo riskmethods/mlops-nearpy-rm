@@ -18,7 +18,7 @@ setup(
     long_description=open('README.txt').read(),
     install_requires=[
         "numpy==1.25.0",
-        "scipy==1.10.1",
+        "scipy==1.11.0",
         "bitarray==2.7.5",
         "future==0.18.3",
     ],
