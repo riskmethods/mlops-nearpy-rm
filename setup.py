@@ -19,7 +19,7 @@ setup(
     install_requires=[
         "numpy==1.25.1",
         "scipy==1.11.1",
-        "bitarray==2.7.5",
+        "bitarray==2.7.6",
         "future==0.18.3",
     ],
     setup_requires=setup_requires,
