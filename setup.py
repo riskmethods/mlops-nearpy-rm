@@ -20,7 +20,7 @@ setup(
         "numpy==1.26.4",
         "scipy==1.12.0",
         "bitarray==2.9.2",
-        "future==0.18.3",
+        "future==1.0.0",
     ],
     setup_requires=setup_requires,
     tests_require=[
